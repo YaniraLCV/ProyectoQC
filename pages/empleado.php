@@ -60,7 +60,7 @@ $sesion->inicioSesion();
 
     <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-sm">
+        <div class="modal-dialog">
 
             <!-- Modal content-->
             <div class="modal-content">
@@ -69,23 +69,50 @@ $sesion->inicioSesion();
                     <h4 class="modal-title">Nuevo Empleado</h4>
                 </div>
                 <div class="modal-body">
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Nombre</label>
-                                    <input class="form-control">
-                                </div>
-                            </form>
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input class="form-control">
-                                </div>
-                            </form>
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Clave</label>
-                                    <input class="form-control">
-                            </form>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-6">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input class="form-control">
+                                    </div>
+                                </form>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-6">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Clave</label>
+                                        <input class="form-control">
+                                </form>
+                                </br>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Departamento</label>
+                                        <select name="nivel">
+                                            <option value="1">DB1</option>
+                                            <option value="2">DB2</option>
+                                            <option value="3">DB3</option>
+                                        </select>
+                                </form>
+                                </br></br>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Cargo</label>
+                                        <select name="nivel">
+                                            <option value="false">Jefe</option>
+                                            <option value="true">Subordinado</option>
+                                        </select>
+                                </form>
+                            </div></div>
+                        </div>
+                    </div>
                     </div>
                     <!--<div class="row">
                         <div class="col-sm-4 col-sm-offset-4">

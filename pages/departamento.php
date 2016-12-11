@@ -71,20 +71,9 @@ $sesion->inicioSesion();
                 <div class="modal-body">
                             <form role="form">
                                 <div class="form-group">
-                                    <label>Nombre</label>
+                                    <label>Descripción</label>
                                     <input class="form-control">
                                 </div>
-                            </form>
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input class="form-control">
-                                </div>
-                            </form>
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Clave</label>
-                                    <input class="form-control">
                             </form>
                     </div>
                     <!--<div class="row">
@@ -92,7 +81,6 @@ $sesion->inicioSesion();
                             <input type="submit" class="btn btn-lg btn-success btn-block" value="Guardar">
                         </div>
                     </div>-->
-                </div>
                 <div class="modal-footer">
                     <div class="col-sm-6">
                         <input type="submit" class="btn btn-lg btn-success btn-block" value="Guardar"></div><div class="col-sm-6">

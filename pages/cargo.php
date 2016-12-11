@@ -71,20 +71,17 @@ $sesion->inicioSesion();
                 <div class="modal-body">
                             <form role="form">
                                 <div class="form-group">
-                                    <label>Nombre</label>
+                                    <label>Descripcion</label>
                                     <input class="form-control">
                                 </div>
                             </form>
                             <form role="form">
                                 <div class="form-group">
-                                    <label>Email</label>
-                                    <input class="form-control">
-                                </div>
-                            </form>
-                            <form role="form">
-                                <div class="form-group">
-                                    <label>Clave</label>
-                                    <input class="form-control">
+                                    <label>Nivel</label>
+                                    <select name="nivel">
+                                        <option value="false">0</option>
+                                        <option value="true">1</option>
+                                    </select>
                             </form>
                     </div>
                     <!--<div class="row">
@@ -112,7 +109,7 @@ $sesion->inicioSesion();
                 <div class="col-sm-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Cargos
+                            Empleados
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
